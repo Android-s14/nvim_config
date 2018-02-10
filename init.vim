@@ -12,4 +12,4 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 tnoremap <Esc> <C-\><C-n>
 
-map <leader>tt :tabedit term://bash<cr>
+map <leader>tt :tabedit term://fish<cr>
