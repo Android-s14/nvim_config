@@ -5,6 +5,7 @@ source ~/.vimrc
 call plug#begin('~/.vim/plugged')
 Plug 'roxma/nvim-completion-manager'
 Plug 'roxma/ncm-github'
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
